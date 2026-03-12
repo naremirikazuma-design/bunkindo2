@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bunkindo</title>
+  <link rel="icon" href="img/favicon/favicon_bun.png">
+  <!-- フォント読み込み -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
+    rel="stylesheet">
+  <!-- CSS読み込み -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-inner wrapper">
+      <h1 class="header-title">
+        <img src="img/bunkinndou/logo_bunkindo.png" alt="文近堂のロゴ">
+      </h1>
+      <nav class="header-nav" aria-label="グローバルナビゲーション">
+        <ul class="header-menu">
+          <li class="header-menuList"><a href="#home">ホーム</a></li>
+          <li class="header-menuList"><a href="#item">商品一覧</a></li>
+          <li class="header-menuList"><a href="#about">文近堂について</a></li>
+          <li class="header-menuList"><a href="#shop">店舗のご案内</a></li>
+          <!-- <li class="header-menuList"><a href="#contact">お問い合わせ</a></li> -->
+          <li class="header-menuList tel-btn">
+            <a href="tel:0864820986" class="tel-n">TEL 086-482-0986</a>
+            <span class="time">AM9:00-PM7:00／水・第2火定休</span>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="header-toggleBtn" aria-label="メニューを開く">
+        <span class="header-hamburgerLine"></span>
+        <span class="header-hamburgerLine"></span>
+        <span class="header-hamburgerLine"></span>
+      </button>
+
+      <div class="header-mask">
+        <nav class="header-maskNav" aria-label="Main navigation">
+          <ul class="header-maskMenu">
+            <li class="header-maskList">
+              <a class="header-maskLink" href="#home">ホーム</a>
+            </li>
+            <li class="header-maskList">
+              <a class="header-maskLink" href="#item">商品一覧</a>
+            </li>
+            <li class="header-maskList">
+              <a class="header-maskLink" href="#about">文近堂について</a>
+            </li>
+            <li class="header-maskList">
+              <a class="header-maskLink" href="#shop">店舗のご案内</a>
+            </li>
+            <li class="header-maskList">
+              <a class="header-maskLink" href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+    <!-- FirstView -->
+    <section class="firstview">
+      <div class="fv-bg"></div>
+      <div class="firstview-titlewrap">
+        <p class="fv-lead">
+          変わらぬ手仕事で、日々のひとときを。
+        </p>
+        <p class="fv-text">
+          地元で愛され続ける、やさしい甘さの和菓子をお届けします。
+        </p>
+      </div>
+    </section>
+
+    <div class="slider">
+      <div class="slider-track">
+
+        <!-- 1セット -->
+        <img src="img/bunkinndou/01_oayama_monaka.jpg" alt="大山名人もなか">
+        <img src="img/bunkinndou/02_cafe_ore.jpg" alt="カフェオーレ大福">
+        <img src="img/bunkinndou/03_ichigo_ore.jpg" alt="いちごオーレ大福">
+        <img src="img/bunkinndou/04_lemon_ore.jpg" alt="レモンオーレ大福">
+        <img src="img/bunkinndou/05_chees_daifuku.jpg" alt="チーズ大福">
+        <img src="img/bunkinndou/06_oborodukiyo.jpg" alt="おぼろ月">
+        <img src="img/bunkinndou/07_oranda_oine.jpg" alt="オランダおいね">
+        <img src="img/bunkinndou/08_castella.jpg" alt="カステーラ">
+        <img src="img/bunkinndou/09_kekkounamon.jpg" alt="けっこうなもん">
+        <img src="img/bunkinndou/10_nofuzo.jpg" alt="のふうぞ">
+        <img src="img/bunkinndou/11_onidaiko_dorayaki.jpg" alt="鬼太鼓">
+        <img src="img/bunkinndou/12_brandy_dorayaki.jpg" alt="ブランデーどらやき">
+
+        <!-- 2セット（同じ画像） -->
+        <img src="img/bunkinndou/01_oayama_monaka.jpg" alt="">
+        <img src="img/bunkinndou/02_cafe_ore.jpg" alt="">
+        <img src="img/bunkinndou/03_ichigo_ore.jpg" alt="">
+        <img src="img/bunkinndou/04_lemon_ore.jpg" alt="">
+        <img src="img/bunkinndou/05_chees_daifuku.jpg" alt="">
+        <img src="img/bunkinndou/06_oborodukiyo.jpg" alt="">
+        <img src="img/bunkinndou/07_oranda_oine.jpg" alt="">
+        <img src="img/bunkinndou/08_castella.jpg" alt="">
+        <img src="img/bunkinndou/09_kekkounamon.jpg" alt="">
+        <img src="img/bunkinndou/10_nofuzo.jpg" alt="">
+        <img src="img/bunkinndou/11_onidaiko_dorayaki.jpg" alt="鬼太鼓">
+        <img src="img/bunkinndou/12_brandy_dorayaki.jpg" alt="ブランデーどらやき">
+
+      </div>
+    </div>
+
+
+    <!-- <div class="container_04">
+     <div class="scrollbar-text_04"><span>scroll</span></div>
+      <div class="scrollbar_04"></div>
+    </div> -->
+
+
+    <!-- 代表和菓子セクション -->
+    <section class="top-wagashi">
+      <div class="container fade-up">
+        <h2 class="section-title">代表的な和菓子</h2>
+      </div>
+      <div class="content container">
+        <article class="wagashi-item">
+          <img src="img/bunkinndou/01_oayama_monaka.jpg" alt="大山名人もなか">
+          <h3 class="item-title">大山名人もなか</h3>
+          <p>
+            厳選された北海道産の大粒「大納言小豆」を、純度の高い氷砂糖と白双糖でじっくりと蜜付け。豆の形を崩さぬよう、一級技能士が五感を研ぎ澄ませて炊き上げた餡は、一粒一粒が美しく際立ち、雑味のない上品な甘みが広がります。<br>将棋の駒を象った特製の最中種に込めたのは、倉敷が生んだ至宝・大山康晴十五世名人の「歩を成金にするには一歩一歩の努力が必要だ」という信念。倉敷が誇る偉人の功績と、職人の揺るぎない矜持を、香ばしい最中の響きと共にお愉しみください。
+          </p>
+        </article>
+        <article class="wagashi-item">
+          <img src="img/bunkinndou/02_cafe_ore.jpg" alt="カフェオーレ大福">
+          <h3 class="item-title">カフェオーレ大福</h3>
+          <p>
+            熟練の職人が直火で一から丁寧に炊き上げる、香り高い「ほろ苦いコーヒーあん」。それを優しく包み込むのは、口どけ滑らかな「生クリーム」と、驚くほど柔らかな「求肥（ぎゅうひ）」です。口に含んだ瞬間、コーヒーの芳醇な香りと苦みをクリームがマイルドに解き放つ、計算し尽くされた至福のバランス。<br>いちご・レモン・チーズなど、一級技能士の豊かな感性が光る「進化系大福」の数々。彩り豊かな驚きと至福のひと時を、どうぞ心ゆくまでご堪能ください。
+          </p>
+        </article>
+        <article class="wagashi-item">
+          <img src="img/bunkinndou/10_nofuzo.jpg" alt="のふうぞ">
+          <h3 class="item-title">のふうぞ</h3>
+          <p>
+            岡山の方言で「おおらかな」を意味する「のふうぞ」。その名の通り、食べる人の心をふんわりと解き放つような、優しくも奥行きのある味わいに仕立てました。産地を厳選し丁寧に炊き上げた「かぼちゃ餡」に、芳醇な香りの「ラムレーズン」を贅沢に忍ばせて。かぼちゃ本来の素朴な甘みを、ラム酒の芳しい余韻が華やかに引き立てる和洋折衷の逸品です。歌のタイトルにもなった郷土の言葉を冠したこの菓子が、皆様に末永く愛される一品となりますように、真心を込めてお届けいたします。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- こだわりセクション -->
+    <section id="kodawari" class="kodawari">
+      <div class="container fade-up">
+        <div class="kodawari-content">
+          <img src="img/bunkinndou/tennai-tatenaga.jpg" alt="文近堂の店内の全体画像" width="400">
+          <h2 class="section-title">地元倉敷への感謝の気持ち</h2> <!--縦書き -->
+          <div class="kodawari-text">
+            <p>
+              私は代々農業を営む家系に生まれました。これからの時代は違う形で新たに商売を始め、後世に伝えていきたいと一念発起し、30歳での独立を目標に、高校卒業後、最初に就いた菓子屋の仕事を極めようと決心しました。京都や東京、静岡で修業を重ね、1981年（昭和56年）、29歳の時に創業しました。地元倉敷市ではなく、あえて知人のいない岡山市での創業でした。
+            </p>
+            <p>
+              当時は自分だけの力で一旗あげたいと思っていましたが、それは間違いでした。約7年後に倉敷へ店を移し、人とのつながりや地元のありがたみをあらためて痛感しました。今は恩返しのような気持ちで倉敷にちなんだ商品を作り、和菓子を通して街の魅力をひとりでも多くの方に伝えたいと思っています。
+            </p>
+            <p>
+              お菓子はパンやご飯のように空腹を満たす主食ではありません。ですが、悲しみに暮れ食欲がない時に音楽が癒しや励ましとなり心に栄養を与えてくれるように、お菓子もまたお客様の人生に寄り添い、気持ちを盛り上げたり元気づけたりする“応援菓”のような存在であってほしいと願っています。倉敷の街を漫遊するように、多様なお菓子を郷土色豊かな形や名前とともに、楽しみながらお召し上がりください。
+            </p>
+            <p class="owner">代表取締役 大崎 貫達（おおさき かんたつ)</p>
+          </div>
+        </div>
+
+
+
+        <div class="kodawari-bottom">
+          <p class="kodawari-message">
+            文近堂の菓子作りの核となるのは、一級技能士が五感を研ぎ澄ませて炊き上げる「あんこ」の輝きです。厳選した小豆の個性を引き出し、雑味のない上品な甘みへと昇華させる——。その一釜ごとの真剣勝負が、私たちの誇りです。
+            <br>また、地元・倉敷の豊かな風土で育まれた旬の果実を積極的に取り入れ、自然の恵みをそのままに閉じ込めました。創業から守り続ける「手仕事の伝統」を礎に、日々変わりゆく時代の感性としなやかに調和する。そんな、今この瞬間にしか味わえない「新しい伝統」を、皆様の元へお届けいたします。
+          </p>
+          <div class="kodawari-images">
+            <img class="img-ichigo" src="img/bunkinndou/ichigo-darake.jpg" alt="新鮮な地元産/岡山県産のいちご">
+            <img class="img-handmade" src="img/bunkinndou/handmade.jpg" alt="いちご大福を手作り">
+            <img class="img-season" src="img/bunkinndou/kisetsumono.jpg" alt="桜餅といちご大福のセット">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -- 店舗のご案内 -- -->
+    <section class="store-info">
+      <div class="container fade-up">
+        <h2 class="section-title">店舗のご案内</h2>
+      </div>
+      <div class="store-content container">
+        <div class="left column">
+          <div class="store-top">
+            <img src="img/bunkinndou/showcase.jpg" alt="商品陳列ケース">
+            <img src="img/bunkinndou/tennai-yokonaga.jpg" alt="店内の様子">
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6188197815054!2d133.8231174!3d34.5885104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553fdce7ae1303b%3A0x5889f2943246c7fe!2z5paH6L-R5aCC!5e0!3m2!1sja!2sjp!4v1772880968856!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>場所：岡山県倉敷市高須賀155-6</p>
+            <p>電車: JR瀬戸大橋線「久々原駅」から徒歩約14分（615m）<br>
+              車: 2号線バイパス「西田」交差点を左折し、茶屋町方面へ約1.8km<br>
+              JR瀬戸大橋線「茶屋町駅」から車で約5分 (2.5km) <br>
+              ※  駐車場：6～10台</p>
+          </div>
+        </div>
+        <div class="right column">
+          <img src="img/bunkinndou/tengai-entrance.webp" alt="店内入口とベンチがあるところ間接照明">
+        </div> 
+      </div> 
+    </section>
+
+    <!-- <section class="store-info top-wagashi">
+      <div class="container fade-up">
+        <h2 class="section-title">店舗のご案内</h2>
+      </div>
+
+      <div class="store-content container">
+
+        <div class="left column">
+          <div class="store-top">
+            <img src="img/bunkinndou/showcase.jpg" alt="商品陳列ケース">
+            <img src="img/bunkinndou/tennai-yokonaga.jpg" alt="店内の様子">
+          </div>
+        </div>
+
+        <div class="right column">
+          <img src="img/bunkinndou/tengai-entrance.webp" alt="店内入口とベンチがあるところ間接照明">
+        </div> -->
+
+        <!-- <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6188197815054!2d133.8231174!3d34.5885104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3553fdce7ae1303b%3A0x5889f2943246c7fe!2z5paH6L-R5aCC!5e0!3m2!1sja!2sjp!4v1772880968856!5m2!1sja!2sjp"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          <p>場所：岡山県倉敷市高須賀155-6</p>
+
+          <p>
+            電車: JR瀬戸大橋線「久々原駅」から徒歩約14分（615m）<br>
+            車: 2号線バイパス「西田」交差点を左折し、茶屋町方面へ約1.8km<br>
+            JR瀬戸大橋線「茶屋町駅」から車で約5分 (2.5km) <br>
+            ※ 駐車場：6～10台
+          </p>
+        </div>
+
+      </div>
+    </section> -->
+
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="contact fix-img">
+      <!-- <div class="contact-bg fix-img"></div> -->
+      <div class="contact-title">
+        <h2 class="title">お問い合わせ</h2>
+        <a href="0864820956">
+         <h1 class="tel-number">086-482-0986</h2>
+        </a>
+          <p class="time">営業時間：AM9:00～PM7:00<br>
+            定休日 毎週水曜日・第２火曜日</p>
+          <p class="">
+            商品や店舗に関するご質問やご要望などございましたら<br>
+            お気軽にお問い合わせください
+          </p>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container ">
+      <h1 class="footer-title">
+        <img src="img/bunkinndou/logo_bunkindo.png" alt="文近堂のロゴ">
+      </h1>
+      <nav class="footer-nav" aria-label="グローバルナビゲーション">
+        <ul class="footer-menu">
+          <li class="footer-menuList"><a href="#home">ホーム</a></li>
+          <li class="footer-menuList"><a href="#item">商品一覧</a></li>
+          <li class="footer-menuList"><a href="#about">文近堂について</a></li>
+          <li class="footer-menuList"><a href="#shop">店舗のご案内</a></li>
+        </ul>
+      </nav>
+      <div class="sns">
+        <a href="https://www.instagram.com/explore/locations/242759658/wen-jin-tang/" target="_blank">
+          <img src="img/インスタロゴ/02 White Glyph/Instagram_Glyph_White.png" alt="インスタグラムのロゴ">
+        </a>
+        <a href="https://www.facebook.com/people/%E6%96%87%E8%BF%91%E5%A0%82/100063578468476/?locale=tl_PH#"
+          target="_blank">
+          <img src="img/フェイスブックロゴ/Logo/Secondary Logo/Facebook_Logo_Secondary.png" alt="フェイスブックのロゴ">
+        </a>
+
+      </div>
+    </div>
+    <p class="footer-copy">
+      Copyright (C) 株式会社 文近堂 All Rights Reserved.
+    </p>
+  </footer>
+
+
+
+  <!-- ---TOPに戻るボタン--- -->
+  <button id="back-to-top" class="back-to-top">▲</button>
+  <!-- ---JSスクリプト--- -->
+  <script src="js/main.js" defer></script>
+  
+</body>
+
+</html>
