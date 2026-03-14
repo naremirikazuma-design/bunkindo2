@@ -777,7 +777,7 @@ section{
   }
   .kodawari-message{
     margin:40px 0;
-    text-align:center;
+    /* text-align:center; */
   }
 }
 @media screen and (max-width:768px){
@@ -924,6 +924,8 @@ section{
   z-index: 1;
 }
 .contact-title{
+  /* background-color: #F4F1F3; */
+  width: 90%;
   position:absolute;
   top:50%;
   left:50%;
@@ -935,6 +937,9 @@ section{
 .contact .title{
   font-family: "Noto Serif JP", serif;
   letter-spacing:0.15em;
+}
+.coment {
+  padding: 1rem;
 }
 
 
@@ -968,7 +973,6 @@ section{
 }
 
 /* ロゴ */
-
 .footer-title img{
   width:140px;
   margin-bottom:30px;
@@ -976,7 +980,6 @@ section{
 }
 
 /* メニュー */
-
 .footer-menu{
   display:flex;
   justify-content:center;
@@ -984,7 +987,6 @@ section{
   gap:28px;
   margin-bottom:30px;
 }
-
 
 .footer-menu a{
   color:#fff;
@@ -1020,7 +1022,7 @@ section{
 
 .back-to-top{
   position:fixed;
-  right:30px;
+  right:0px;
   /* bottom:30px; */
   bottom:60px;
   width:44px;
@@ -1071,8 +1073,6 @@ section{
   letter-spacing:0.08em;
 } */
 
-
-
 .sp-tel{
   position:fixed;
   bottom:0;
@@ -1091,7 +1091,7 @@ section{
   background:#8C6B5A;
   color:#fff;
 
-  padding:18px;
+  padding:6px;
   font-size:18px;
   letter-spacing:0.08em;
 }
@@ -1104,5 +1104,10 @@ section{
 @media screen and (min-width:769px){
   .sp-tel{
     display:none;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    padding-bottom:30px;
   }
 }
