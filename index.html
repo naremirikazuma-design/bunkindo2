@@ -12,6 +12,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- CSS読み込み -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -69,7 +70,7 @@
   </header>
 
 
-  <main class="main">
+  <main id="home" class="main">
     <!-- FirstView -->
     <section class="firstview">
       <div class="fv-bg"></div>
@@ -129,7 +130,7 @@
       <div class="container fade-up">
         <h2 class="section-title">代表的な和菓子</h2>
       </div>
-      <div class="content container">
+      <div class="content container fade-in">
         <article class="wagashi-item">
           <img src="img/bunkinndou/01_oayama_monaka.jpg" alt="大山名人もなか">
           <h3 class="item-title">大山名人もなか</h3>
@@ -156,11 +157,11 @@
 
     <!-- こだわりセクション -->
     <section id="kodawari" class="kodawari">
-      <div class="container fade-up">
+      <div class="container">
         <div class="kodawari-content">
-          <img src="img/bunkinndou/tennai-tatenaga.jpg" alt="文近堂の店内の全体画像" width="400">
+          <img src="img/bunkinndou/tennai-tatenaga.jpg" alt="文近堂の店内の全体画像" class="fade-in" width="400">
           <h2 class="section-title">地元倉敷への感謝の気持ち</h2> <!--縦書き -->
-          <div class="kodawari-text">
+          <div class="kodawari-text fade-up">
             <p>
               私は代々農業を営む家系に生まれました。これからの時代は違う形で新たに商売を始め、後世に伝えていきたいと一念発起し、30歳での独立を目標に、高校卒業後、最初に就いた菓子屋の仕事を極めようと決心しました。京都や東京、静岡で修業を重ね、1981年（昭和56年）、29歳の時に創業しました。地元倉敷市ではなく、あえて知人のいない岡山市での創業でした。
             </p>
@@ -177,7 +178,7 @@
 
 
         <div class="kodawari-bottom">
-          <p class="kodawari-message">
+          <p class="kodawari-message fade-up">
             文近堂の菓子作りの核となるのは、一級技能士が五感を研ぎ澄ませて炊き上げる「あんこ」の輝きです。厳選した小豆の個性を引き出し、雑味のない上品な甘みへと昇華させる——。その一釜ごとの真剣勝負が、私たちの誇りです。
             <br>また、地元・倉敷の豊かな風土で育まれた旬の果実を積極的に取り入れ、自然の恵みをそのままに閉じ込めました。創業から守り続ける「手仕事の伝統」を礎に、日々変わりゆく時代の感性としなやかに調和する。そんな、今この瞬間にしか味わえない「新しい伝統」を、皆様の元へお届けいたします。
           </p>
@@ -195,7 +196,7 @@
       <div class="container fade-up">
         <h2 class="section-title">店舗のご案内</h2>
       </div>
-      <div class="store-content container">
+      <div class="store-content container fade-in">
         <div class="left column">
           <div class="store-top">
             <img src="img/bunkinndou/showcase.jpg" alt="商品陳列ケース">
@@ -258,7 +259,7 @@
       <!-- <div class="contact-bg fix-img"></div> -->
       <div class="contact-title">
         <h2 class="title">お問い合わせ</h2>
-        <a href="0864820956">
+        <a href="tel:086-482-0956">
          <h1 class="tel-number">086-482-0986</h2>
         </a>
           <p class="time">営業時間：AM9:00～PM7:00<br>
@@ -301,6 +302,11 @@
     </p>
   </footer>
 
+  <div class="sp-tel">
+    <a href="tel:086-482-0956">
+      <i class="fa-solid fa-phone"></i>
+    電話する
+    </a></div>
 
 
   <!-- ---TOPに戻るボタン--- -->
